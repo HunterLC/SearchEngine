@@ -5,5 +5,7 @@
 	<classpathentry kind="lib" path="F:/Eclipse/eclipse/code/Search/tool/jsoup-1.11.3.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/eclipse/code/Search/tool/jsoup-1.11.3-javadoc.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/eclipse/code/Search/tool/jsoup-1.11.3-sources.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/eclipse/code/SearchEngine/tool/IKAnalyzer2012_u6.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/eclipse/code/SearchEngine/tool/lucene-core-3.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

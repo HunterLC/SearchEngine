@@ -34,8 +34,8 @@ public class WebDownload {
 	
 	public static void main(String[] args) throws Exception {
 		//下载URL并保存到指定位置
-		String urlE = "https://github.com"; //英文网站
-		String urlC = "https://www.qq.com/";//中文网站
+		String urlE = "https://www.apple.com"; //英文网站
+		String urlC = "https://www.163.com";//中文网站
 		String urlFilePath = "F:/Eclipse/eclipse/code/SearchEngine/WebPage/URL";
 		String urlFileNameE = "URL1.txt";
 		String urlFileNameC = "URL2.txt";
@@ -55,7 +55,7 @@ public class WebDownload {
 			file2.mkdirs();//创建文件夹	
 			System.out.println("Done");
 		}
-		for (int i = 2; i >= 2; i--) {
+		for (int i = 1; i >= 1; i--) {
 			File urlFile = new File(urlFilePath + "/URL"+i+".txt");
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new FileInputStream(urlFile), "utf-8"));
 			int count = 0;
