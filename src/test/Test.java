@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
@@ -16,11 +17,16 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
+import tool.HandleChinese;
 import tool.HandleEnglish;
 import tool.HandleHTML;
 
 public class Test {
 
+	/**
+	 * 中英文网站处理函数
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String htmlPathC="F:/Eclipse/eclipse/code/SearchEngine/WebPage/ChinesePage";
@@ -55,6 +61,7 @@ public class Test {
 		}
 		/***********************中文网页预处理****************************/
 		//处理中文网页
+		HandleChinese.InitStopWord();//初始化中文停用词表
 		for(int i = 1; i <= fileCount1; i++) {
 			String htmlName = nameC+i+".txt";
 			System.out.println("正在对"+htmlName+"进行标签剔除、分词处理");
@@ -69,14 +76,23 @@ public class Test {
 				StringReader reader = new StringReader(text); //将纯网页中文内容分词
 				TokenStream ts = anal.tokenStream("", reader);// 分词
 				CharTermAttribute term = ts.getAttribute(CharTermAttribute.class);
+				List<String> rawContent = new ArrayList<String>();
 				try {
 					while (ts.incrementToken()) {// 遍历分词数据
-						bw.write(term.toString() + "\n");
+						rawContent.add(term.toString());  //将分词后的文本转成List去删除停用词
 					}
-				} catch (IOException e) {
+				} catch (IOException e1) {
 					// TODO Auto-generated catch block
-					e.printStackTrace();
-				} 
+					e1.printStackTrace();
+				}
+				rawContent = HandleChinese.DeleteStopWord(rawContent); //删除中文停用词
+				for(String item:rawContent)
+					try {
+						bw.write(item + "\n");
+					} catch (IOException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}
 				System.out.println(htmlName+"处理完毕");
 				reader.close();
 				try {
@@ -98,6 +114,7 @@ public class Test {
 		
 		/***********************英文网页预处理****************************/
 		// 处理英文网页
+		HandleEnglish.InitStopWord();//初始化英语停用词表
 		for (int i = 1; i <= fileCount2; i++) {
 			String htmlName = nameE + i + ".txt";
 			System.out.println("正在对" + htmlName + "进行标签剔除、分词处理");
@@ -118,11 +135,12 @@ public class Test {
 					// TODO Auto-generated catch block
 					e2.printStackTrace();
 				}
-				List<String> wordsList = HandleEnglish.toLowerCaseWords(temp);//英文网页转小写并删去无用符号，便于停用词删除测试
+				//英文网页转小写并删去无用符号
+				//删除停用词
+				List<String> wordsList = HandleEnglish.DeleteStopWord(HandleEnglish.toLowerCaseWords(temp));
 				System.out.println(wordsList.size());
 				for (String word : wordsList) {
 					try {
-						System.out.println(word);
 						bw.write(word + "\n");
 					} catch (IOException e) {
 						// TODO Auto-generated catch block
