@@ -1,0 +1,492 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    
+    <meta charset="utf-8" />
+  
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+      <script src="http://govt.chinadaily.com.cn/static/govt/js/jquery-1.8.1.min.js"></script>
+      <script src="http://govt.chinadaily.com.cn/static/govt/js/show.js"></script><!--导航-->
+      <script src="http://govt.chinadaily.com.cn/static/govt/js/public.js"></script>
+      <script>
+        /*<![CDATA[*/
+        var baseStaticUrl='http://govt.chinadaily.com.cn/static/govt/';
+        /*]]>*/
+      </script>
+      <script type="text/javascript" src="http://govt.chinadaily.com.cn/static/govt/js/mobile.js"></script>
+      <link rel="stylesheet" type="text/css" href="http://govt.chinadaily.com.cn/static/govt/css/layout.css" />
+      <script>
+        /*<![CDATA[*/
+        !function(e,t,n,g,i){e[i]=e[i]||function(){(e[i].q=e[i].q||[]).push(arguments)},n=t.createElement("script"),tag=t.getElementsByTagName("script")[0],n.async=1,n.src=('https:'==document.location.protocol?'https://':'http://')+g,tag.parentNode.insertBefore(n,tag)}(window,document,"script","assets.growingio.com/2.1/gio.js","gio");
+        gio('init','806d14bbfeb01f89', {});
+        gio('send');
+        /*]]>*/
+      </script>
+    
+    <title>Your Online Guide to Government Services in China</title>
+    <script type="text/javascript" xml:space="preserve" src="http://govt.chinadaily.com.cn/static/govt/js/ie6nav.js"></script><!--焦点图-->
+    <script type="text/javascript" xml:space="preserve" src="http://govt.chinadaily.com.cn/static/govt/js/koala.min.1.5.js"></script><!--焦点图-->
+    <script type="text/javascript" xml:space="preserve" src="http://govt.chinadaily.com.cn/static/govt/js/scroll.js"></script><!--左右滚动图片-->
+    <script id="terminator" type="text/javascript" xml:space="preserve" src="http://govt.chinadaily.com.cn/static/govt/js/terminator2.2.min.js"></script><!--左右滚动图片-->
+    <script xml:space="preserve" src="http://govt.chinadaily.com.cn/static/govt/js/msg.js"></script><!--留言框-->
+  </head>
+  <body>
+    
+      <div class="topHead">
+        <div class="mainT">
+          <div class="navWap wap_box"><img src="http://govt.chinadaily.com.cn/static/govt/img/navWap.jpg" /></div>
+          <p class="jhyBt trans"><span>GOVT.CHINADAILY.COM.CN</span><b class="pc_box">YOUR ONLINE GUIDE TO GOVERNMENT SERVICES IN CHINA</b></p>
+          <div class="wap_search wap_box" id="inp_submit">
+            <img src="http://govt.chinadaily.com.cn/static/govt/img/fdj4.png" />
+          </div>
+          <div class="tlBox" id="t_search">
+            <div class="search">
+              <div class="back wap_box"><img src="http://govt.chinadaily.com.cn/static/govt/img/back.png" /></div>
+              <div class="sInner">
+                <input type="text" class="inp_txt" />
+                <a href="javascript:;" class="inp_go"></a>
+                <div class="clear"></div>
+              </div>
+            </div>
+            <span class="pc_box"><a href="http://www.chinadaily.com.cn/">CHINADAILY.COM.CN</a>|<a href="http://english.gov.cn/">ENGLISH.GOV.CN</a></span>
+          </div>
+          
+          <div class="clear"></div>
+        </div>
+      </div>
+    
+      <div class="navT trans">
+        <ul>
+          <li><a href="http://govt.chinadaily.com.cn">Home</a></li>
+          
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/services">Services</a>
+                  <ul class="pc_box">
+                    <!-- visas -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/visas">Visas</a></li>
+                    
+                    <!-- Work in China -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/work">Work in China</a></li>
+                    
+                    <!-- 	Doing Business -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/doingbiz">Doing Business</a></li>
+                    
+                    <!-- Study in China -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/study">Study in China</a></li>
+                    
+                    <!-- Live in China -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/live">Live in China</a></li>
+                    
+                    <!-- Visit China -->
+                      <li><a href="http://govt.chinadaily.com.cn/index/services/visitchina">Visit China</a></li>
+                    
+                  </ul>
+                
+              
+            </li>
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/policies">Policies</a>
+                  
+                
+              
+            </li>
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/news">News</a>
+                  
+                
+              
+            </li>
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/specials">Specials</a>
+                  
+                
+              
+            </li>
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/topics">Topics</a>
+                  
+                
+              
+            </li>
+            <li>
+              
+                
+                  <a href="http://govt.chinadaily.com.cn/index/regions">Regions</a>
+                  
+                
+              
+            </li>
+            <li>
+              
+                
+              
+            </li>
+            <li>
+              
+            </li>
+          
+        </ul>
+      </div>
+    
+    <div id="wrapper" class="wrapper">
+      
+      <div class="bdy">
+        <!--焦点图 begin-->
+        <div id="fsD1" class="mainFocus">
+          <div id="D1pic1" class="fPic">
+        <!-- 聚合页 :  -->
+            
+              <div class="fcon" style="display: none;">
+                <a shape="rect" href="http://govt.chinadaily.com.cn/a/201903/25/WS5c98918c498e079e6801bd28.html">
+                  <img border="0" style="opacity: 0.92;" src="http://govt.chinadaily.com.cn/images/201903/25/5c98918c498e079efef5d222.jpeg" />
+                </a>
+                <span class="shadow"><a shape="rect" href="http://govt.chinadaily.com.cn/a/201903/25/WS5c98918c498e079e6801bd28.html">What to know about the Foreign Investment Law</a></span>
+              </div>
+              <div class="fcon" style="display: none;">
+                <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830c6498e079e6801e76e.html">
+                  <img border="0" style="opacity: 0.92;" src="http://govt.chinadaily.com.cn/images/201904/22/5cbd2c89498e079efef903e7.jpeg" />
+                </a>
+                <span class="shadow"><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830c6498e079e6801e76e.html">Procedures for foreigners working in China</a></span>
+              </div>
+              <div class="fcon" style="display: none;">
+                <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830bc498e079e6801e76c.html">
+                  <img border="0" style="opacity: 0.92;" src="http://govt.chinadaily.com.cn/images/201904/22/5cbd2cf6498e079efef9042e.jpeg" />
+                </a>
+                <span class="shadow"><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830bc498e079e6801e76c.html">Important things every foreigner should know before buying insurance</a></span>
+              </div>
+              <div class="fcon" style="display: none;">
+                <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830b0498e079e6801e76b.html">
+                  <img border="0" style="opacity: 0.92;" src="http://govt.chinadaily.com.cn/images/201904/22/5cbd2e28498e079efef90500.jpeg" />
+                </a>
+                <span class="shadow"><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830b0498e079e6801e76b.html">How to buy safe food in China</a></span>
+              </div>
+              <div class="fcon" style="display: none;">
+                <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830a5498e079e6801e76a.html">
+                  <img border="0" style="opacity: 0.92;" src="http://govt.chinadaily.com.cn/images/201904/22/5cbd2db0498e079efef904b7.jpeg" />
+                </a>
+                <span class="shadow"><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/18/WS5cb830a5498e079e6801e76a.html">Common procedures of seeing the doctor at Chinese hospitals</a></span>
+              </div>
+            
+          </div>
+          <div class="fbg">
+            <div class="D1fBt" id="D1fBt">
+              <a href="javascript:void(0)" hidefocus="true" target="_self" class="current" shape="rect"><i>1</i></a>
+              <a href="javascript:void(0)" hidefocus="true" target="_self" class="" shape="rect"><i>2</i></a>
+              <a href="javascript:void(0)" hidefocus="true" target="_self" class="" shape="rect"><i>3</i></a>
+              <a href="javascript:void(0)" hidefocus="true" target="_self" class="" shape="rect"><i>4</i></a>
+              <a href="javascript:void(0)" hidefocus="true" target="_self" class="" shape="rect"><i>5</i></a>
+            </div>
+          </div>
+          <span class="prev"></span>
+          <span class="next"></span>
+        </div>
+        <script xml:space="preserve">
+          Qfast.add('widgets', { path: document.getElementById("terminator").src, type: "js", requires: ['fx'] });
+          Qfast(false, 'widgets', function () {
+            K.tabs({
+              id: 'fsD1',   //焦点图包裹id
+              conId: "D1pic1",  //** 大图域包裹id
+              tabId:"D1fBt",
+              tabTn:"a",
+              conCn: '.fcon', //** 大图域配置class
+              auto: 1,   //自动播放 1或0
+              effect: 'fade',   //效果配置
+              eType: 'click', //** 鼠标事件
+              pageBt:true,//是否有按钮切换页码
+              bns: ['.prev', '.next'],//** 前后按钮配置class
+              interval: 3000  //** 停顿时间
+            })
+          })
+        </script>
+        <!--焦点图 end-->
+        <div class="main">
+          <div class="main_L2">
+            <div class="main_Cont2"><!-- Services -->
+              <h2>
+                <a shape="rect" href="http://govt.chinadaily.com.cn/index/services">Services</a>
+                </h2>
+              <!--news begin-->
+              <ul class="mb4 newsFont1">
+                <li>
+                  <!-- Visas -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/visas">Visas</a></span>
+                  
+
+                  <!-- Basic Facts -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/basicfacts">Basic Facts</a></h3>
+                    <p class="pc_box">Foreigners intending to enter China must apply for a visa issued by government-authorized bodies based on Chinese laws and regulations.</p>
+                  
+                  <!-- Visa Types -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/visatypes">Visa Types</a></h3>
+                    <p class="pc_box">There are four main types of Chinese visas: diplomatic, courtesy, service and ordinary. Ordinary visas are further divided into 16 categories.</p>
+                  
+                  <!-- Visa Application -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/visaapplication">Visa Application</a></h3>
+                    <p class="pc_box">Foreigners with valid passports or documents are welcomed to apply for a China visa for various purposes, including visiting, studying or business.</p>
+                  
+                </li>
+                <li>
+                  <!-- Work in China -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/work">Work in China</a></span>
+                  
+
+                  <!-- Employment of Foreigners -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/employment">Employment of Foreigners</a></h3>
+                    <p class="pc_box">Many foreigners are employed in China and their rights and obligations are prescribed in the Rules for the Administration of Employment of Foreigners in China.</p>
+                  
+                  <!-- Work Permits -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/workpermit">Work Permits</a></h3>
+                    <p class="pc_box">Foreigners who work in China must obtain work permits and work-type residence permits in accordance with the relevant regulations.</p>
+                  
+                  <!-- Permanent Residency -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/permanentresidency">Permanent Residency</a></h3>
+                    <p class="pc_box">Foreigners who receive permanent residency in China can permanently live in the country and don&#39;t have to apply for a visa to enter or leave the territory.</p>
+                  
+                </li>
+                <div class="clear"></div>
+                <li>
+                  <!-- Doing Business -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/doingbiz">Doing Business</a></span>
+                  
+
+                  <!-- Laws and Regulations -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/lawsandregulations">Laws and Regulations</a></h3>
+                    <p class="pc_box">It offers a collection of laws and regulations as well as rules of law implementation related to doing business in China for foreigners.</p>
+                  
+                  <!-- ABC for Foreign-Invested Enterprises -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/abc">ABC for Foreign Invested Enterprises</a></h3>
+                    <p class="pc_box">It offers information about basics and requirements for foreign-invested enterprises, including required documents, procedures and methods.</p>
+                  
+                  <!-- Taxation -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/taxation">Taxation</a></h3>
+                    <p class="pc_box">It offers basics about taxation in China, such as relevant provisions, ways of taxation collection and common problems.</p>
+                  
+                </li>
+                <li>
+                  <!-- Study in China -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/study">Study in China</a></span>
+                  
+
+                  <!-- Education for Foreign Children -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/forforeignchildren">Education for Foreign Children</a></h3>
+                    <p class="pc_box">Some primary and secondary schools in China are accredited by the Ministry of Education to accept foreign students at an appropriate age for study.</p>
+                  
+                  <!-- Higher Education -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/highereducation">Higher Education</a></h3>
+                    <p class="pc_box">International students are welcome to study in China. Chinese universities offer thousands of programs for foreign students.</p>
+                  
+                  <!-- Scholarships -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/scholarships">Scholarships</a></h3>
+                    <p class="pc_box">To attract more outstanding international students to study in China, Chinese higher education institutions have set up many kinds of scholarships.</p>
+                  
+                </li>
+                <div class="clear"></div>
+                <li>
+                  <!-- Live in China -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/live">Live in China</a></span>
+                  
+
+                  <!-- Marriage -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/marriage">Marriage</a></h3>
+                    <p class="pc_box">Marriage in China, regardless of the nationality of those being married, is registered according to the laws of China.</p>
+                  
+                  <!-- Children and Adoption -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/adoption">Children and Adoption</a></h3>
+                    <p class="pc_box">A foreign adopter may adopt only one child, male or female, unless the adoptees are twins or siblings living in the same charity authority.</p>
+                  
+                  <!-- Healthcare -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/healthcare">Healthcare</a></h3>
+                    <p class="pc_box">China has provided comprehensive and effective healthcare services to foreigners living in China, especially in big cities.</p>
+                  
+                </li>
+                <li>
+                  <!-- Visit China -->
+                    <span><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/visitchina">Visit China</a></span>
+                  
+
+                  <!-- China Facts -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/chinafacts">China Facts</a></h3>
+                    <p class="pc_box">This part is to introduce the information pertinent to travel and daily transportation in China based on laws and regulations.</p>
+                  
+                  <!-- Entry & Exit -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/entryandexit">Entry and Exit</a></h3>
+                    <p class="pc_box">Permission must be obtained from the competent authorities of the Chinese Government by an individual for his/her entry, transit and residence in China.</p>
+                  
+                  <!-- Destinations -->
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/index/services/destinations">Destinations</a></h3>
+                    <p class="pc_box">From the Great Wall to Mogao Grottoes, China is a country full of profundity, adventure, and fascination that has attracted millions of travelers for centuries.</p>
+                  
+                </li>
+                <div class="clear"></div>
+              </ul>
+            </div>
+
+            <div class="main_Cont2"><!-- Policies -->
+              
+                <h2><a shape="rect" href="http://govt.chinadaily.com.cn/index/policies">Policies</a></h2>
+              
+              
+                <div class="picTxt2">
+                  
+                    <div class="pic">
+                      <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/26/WS5cc2b7b4498e079e6801f20a.html">
+                        <img alt="" border="0" width="195" src="http://govt.chinadaily.com.cn/images/201904/26/5cc2b7b4498e079efef9f6ed.jpeg" />
+                      </a>
+                    </div>
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/26/WS5cc2b7b4498e079e6801f20a.html">Monetary policy to stay on even footing</a></h3>
+                    <p>China has no intention of tightening or relaxing its monetary policy, a central bank vice-governor said on Thursday. Analysts said such a stance is reasonable as the economy has stabilized in the first quarter.</p><div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69fa1498e079e6801f4db.html">China improves retired soldiers&#39; welfare</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc6a017498e079e6801f4dd.html">China strengthens movie copyright protection</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/28/WS5cc66c32498e079e6801f49e.html">Govt issues plan on State-owned capital management reform</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            </div>
+
+            <div class="main_Cont2"><!-- news -->
+              
+                <h2><a shape="rect" href="http://govt.chinadaily.com.cn/index/news">News</a></h2>
+              
+              
+                <div class="picTxt2">
+                  
+                    <div class="pic">
+                      <a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69f14498e079e6801f4d7.html">
+                        <img alt="" border="0" width="195" src="http://govt.chinadaily.com.cn/images/201904/29/5cc69f14498e079efefa6c49.jpeg" />
+                      </a>
+                    </div>
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69f14498e079e6801f4d7.html">Hydrogen fuel cell technology put on solid development path</a></h3>
+                    <p>The future role of hydrogen fuel cells in China&#39;s fast-changing automotive industry was made clearer by the Ministry of Industry and Information Technology on Tuesday, with it detailing the government&#39;s latest development prospects for the technology.</p><div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69dbb498e079e6801f4d1.html">GDP, inflows may buoy yuan</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69edb498e079e6801f4d6.html">China fully enhances IPR protection</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+                <div class="picTxt2">
+                  
+                  <div class="txt3">
+                    <h3><a shape="rect" href="http://govt.chinadaily.com.cn/a/201904/29/WS5cc69ec5498e079e6801f4d5.html">China to improve health services for elderly people</a></h3>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              
+            </div>
+          </div>
+          
+      <div class="main_R2">
+        <!-- index,specials -->
+          <div class="imgBox">
+            <a href="http://govt.chinadaily.com.cn/a/201904/26/WS5cc2b7eb498e079e6801f20c.html">
+              <img alt="" border="0" width="250" height="173" src="http://govt.chinadaily.com.cn/images/201904/26/5cc2b81d498e079efef9f710.jpeg" />
+            </a>
+            <a class="imgTxt" href="http://govt.chinadaily.com.cn/a/201904/26/WS5cc2b7eb498e079e6801f20c.html">
+              <b>Infographics:</b>A ticket guide for Expo 2019 Beijing
+            </a>
+          </div>
+          <div class="imgBox">
+            <a href="http://govt.chinadaily.com.cn/a/201904/22/WS5cbe77c3498e079e6801ebf3.html">
+              <img alt="" border="0" width="250" height="173" src="http://govt.chinadaily.com.cn/images/201904/23/5cbe77ef498e079efef96052.jpeg" />
+            </a>
+            <a class="imgTxt" href="http://govt.chinadaily.com.cn/a/201904/22/WS5cbe77c3498e079e6801ebf3.html">
+              <b>Video:</b>Georgian ambassador to China: BRI to further integrate global trade
+            </a>
+          </div>
+          <div class="imgBox">
+            <a href="http://govt.chinadaily.com.cn/a/201904/20/WS5cbe7796498e079e6801ebf1.html">
+              <img alt="" border="0" width="250" height="173" src="http://govt.chinadaily.com.cn/images/201904/23/5cbe7801498e079efef9605f.jpeg" />
+            </a>
+            <a class="imgTxt" href="http://govt.chinadaily.com.cn/a/201904/20/WS5cbe7796498e079e6801ebf1.html">
+              <b>Video:</b>Austrian ambassador to China: BRI boosts economic development
+            </a>
+          </div>
+          <div class="imgBox">
+            <a href="http://govt.chinadaily.com.cn/a/201904/21/WS5cbe7782498e079e6801ebef.html">
+              <img alt="" border="0" width="250" height="173" src="http://govt.chinadaily.com.cn/images/201904/23/5cbe77f8498e079efef96059.jpeg" />
+            </a>
+            <a class="imgTxt" href="http://govt.chinadaily.com.cn/a/201904/21/WS5cbe7782498e079e6801ebef.html">
+              <b>Video:</b>Ethiopian ambassador to China: Hope more countries join BRI
+            </a>
+          </div>
+          <div class="imgBox">
+            <a href="http://govt.chinadaily.com.cn/a/201904/20/WS5cbd8ca7498e079e6801eb6e.html">
+              <img alt="" border="0" width="250" height="173" src="http://govt.chinadaily.com.cn/images/201904/22/5cbd8ca7498e079efef91921.jpeg" />
+            </a>
+            <a class="imgTxt" href="http://govt.chinadaily.com.cn/a/201904/20/WS5cbd8ca7498e079e6801eb6e.html">
+              <b>Infographics:</b>A look at economic data from Q1
+            </a>
+          </div>
+          <div class="sendMsg"><!--提交框 begin-->
+            <h2>LEAVE YOUR MESSAGE</h2>
+            <form onSubmit="return messgaeSubmit();">
+              <div class="areaBox"><textarea id="message" name="text" placeholder="Please leave a message..."></textarea></div>
+              <p id="messageFalse" class="eMailFalse"></p>
+              <p class="eMail"><I>*</I>Your E-mail Address<BR /></p>
+              <p class="inputBox"><INPUT id="memail" name="email" type="text" /></p>
+              <p id="eMailFalse" class="eMailFalse"></p><input type="submit" class="subm" id="submMsg" onClick="return messgaeSubmit()" value="Submit" /><p class="clear"></p>
+              <p style="display: none;" id="tips" class="tips"></p>
+            </form>
+          </div><!--提交框 end-->
+        
+        
+        
+      </div>
+    
+          <div class="clear"></div>
+        </div>
+        
+      <div class="mainB">
+        <p>Copyright©2019  China Daily. All rights reserved. </p>
+      </div>
+      <div style="display: none;">
+		<script src="https://s5.cnzz.com/z_stat.php?id=1275760822&amp;web_id=1275760822" type="text/javascript"></script>
+      </div>
+    
+      </div>
+    </div>
+  </body>
+</html>
