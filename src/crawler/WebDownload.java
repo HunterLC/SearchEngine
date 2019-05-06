@@ -34,10 +34,8 @@ public class WebDownload {
 		return count;
 	}
 	
-	public static void main(String[] args) throws Exception {
-		//下载URL并保存到指定位置
-		String urlE = "https://www.chinadaily.com.cn/"; //英文网站
-		String urlC = "https://www.tom.com";//中文网站
+	public static void DownloadPage(String urlE,String urlC) throws Exception {
+
 		String urlFilePath = "F:/Eclipse/eclipse/code/SearchEngine/WebPage/URL";
 		String urlFileNameE = "URL1.txt";
 		String urlFileNameC = "URL2.txt";
@@ -50,13 +48,15 @@ public class WebDownload {
 		File file1=new File(webFilePathE);		
 		if(!file1.exists()){//如果文件夹不存在			
 			file1.mkdirs();//创建文件夹	
-			System.out.println("Done");
+			System.out.println("创建文件夹成功");
 		}
 		File file2=new File(webFilePathC);
 		if(!file2.exists()){//如果文件夹不存在			
 			file2.mkdirs();//创建文件夹	
-			System.out.println("Done");
+			System.out.println("创建文件夹成功");
 		}
+		
+		//下载url中的网站内容
 		for (int i = 1; i <= 2; i++) {
 			File urlFile = new File(urlFilePath + "/URL"+i+".txt");
 			BufferedReader urlReader = new BufferedReader(new InputStreamReader(new FileInputStream(urlFile), "utf-8"));
@@ -67,6 +67,7 @@ public class WebDownload {
 					if (line == null)
 						break;
 					else {
+						System.out.println("正在从"+ line + "下载内容");
 						String webName = null;
 						if(i == 1)
 							webName = webFilePathE+"/Web_E_" + (++count)+ ".txt";
@@ -74,7 +75,10 @@ public class WebDownload {
 							webName = webFilePathC+"/Web_C_" + (++count)+ ".txt";
 						WebDownload web = new WebDownload(line, webName);
 						count = web.DownLoad(count);  //下载网页，如果有异常则回滚该编号
-						System.out.println(count + "下载完毕");
+						if(i == 1)
+							System.out.println("Web_E_"+count + "下载完毕");
+						else if(i == 2)
+							System.out.println("Web_C_"+count + "下载完毕");
 					}
 				} catch (IOException e) {
 					// TODO Auto-generated catch block

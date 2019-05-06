@@ -1,6 +1,8 @@
 package tool;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Stemmer, implementing the Porter Stemming Algorithm
@@ -140,7 +142,7 @@ public class PorterStemmer {
 		}
 	}
 
-	//vowelinstem() 为真 <=> 0,...j 包含一个元音
+	// vowelinstem() 为真 <=> 0,...j 包含一个元音
 	private final boolean vowelinstem() {
 		int i;
 		for (i = 0; i <= j; i++)
@@ -149,7 +151,7 @@ public class PorterStemmer {
 		return false;
 	}
 
-	//doublec(j) 为真 <=> j,(j-1) 包含两个一样的辅音
+	// doublec(j) 为真 <=> j,(j-1) 包含两个一样的辅音
 	private final boolean doublec(int j) {
 		if (j < 1)
 			return false;
@@ -158,13 +160,13 @@ public class PorterStemmer {
 		return cons(j);
 	}
 
-	/* cvc(i) is 为真 <=> i-2,i-1,i 有形式： 辅音 - 元音 - 辅音
-	   并且第二个c不是 w,x 或者 y. 这个用来处理以e结尾的短单词。 e.g.
-	 
-	   cav(e), lov(e), hop(e), crim(e), 但不是
-	   snow, box, tray.
-	 
-	*/
+	/*
+	 * cvc(i) is 为真 <=> i-2,i-1,i 有形式： 辅音 - 元音 - 辅音 并且第二个c不是 w,x 或者 y.
+	 * 这个用来处理以e结尾的短单词。 e.g.
+	 * 
+	 * cav(e), lov(e), hop(e), crim(e), 但不是 snow, box, tray.
+	 * 
+	 */
 	private final boolean cvc(int i) {
 		if (i < 2 || !cons(i) || cons(i - 1) || !cons(i - 2))
 			return false;
@@ -204,26 +206,17 @@ public class PorterStemmer {
 			setto(s);
 	}
 
-	/* step1() 处理复数，ed或者ing结束的单词。比如：
-	 
-    caresses  ->  caress
-    ponies    ->  poni
-    ties      ->  ti
-    caress    ->  caress
-    cats      ->  cat
-
-    feed      ->  feed
-    agreed    ->  agree
-    disabled  ->  disable
-
-    matting   ->  mat
-    mating    ->  mate
-    meeting   ->  meet
-    milling   ->  mill
-    messing   ->  mess
-
-    meetings  ->  meet
-*/
+	/*
+	 * step1() 处理复数，ed或者ing结束的单词。比如：
+	 * 
+	 * caresses -> caress ponies -> poni ties -> ti caress -> caress cats -> cat
+	 * 
+	 * feed -> feed agreed -> agree disabled -> disable
+	 * 
+	 * matting -> mat mating -> mate meeting -> meet milling -> mill messing -> mess
+	 * 
+	 * meetings -> meet
+	 */
 	private final void step1() {
 		if (b[k] == 's') {
 			if (ends("sses"))
@@ -264,10 +257,10 @@ public class PorterStemmer {
 			b[k] = 'i';
 	}
 
-	/* step3() 将双后缀的单词映射为单后缀。 所以 -ization ( = -ize 加上
-	   -ation) 被映射到 -ize 等等。 注意在去除后缀之前必须确保
-	   m() > 0. 
-	*/
+	/*
+	 * step3() 将双后缀的单词映射为单后缀。 所以 -ization ( = -ize 加上 -ation) 被映射到 -ize 等等。
+	 * 注意在去除后缀之前必须确保 m() > 0.
+	 */
 	private final void step3() {
 		if (k == 0)
 			return;
@@ -374,7 +367,7 @@ public class PorterStemmer {
 		}
 	}
 
-	/*第四步，处理-ic-，-full，-ness等等后缀。和步骤3有着类似的处理 */
+	/* 第四步，处理-ic-，-full，-ness等等后缀。和步骤3有着类似的处理 */
 	private final void step4() {
 		switch (b[k]) {
 		case 'e':
@@ -494,7 +487,7 @@ public class PorterStemmer {
 			k = j;
 	}
 
-	/*第六步，在m()>1的情况下，移除末尾的“e” */
+	/* 第六步，在m()>1的情况下，移除末尾的“e” */
 	private final void step6() {
 		j = k;
 		if (b[k] == 'e') {
@@ -506,10 +499,10 @@ public class PorterStemmer {
 			k--;
 	}
 
-	/** 通过调用add()方法来讲单词放入词干器数组b中
-	  * 可以通过下面的方法得到结果：
-	  * getResultLength()/getResultBuffer() or toString().
-	  */
+	/**
+	 * 通过调用add()方法来讲单词放入词干器数组b中 可以通过下面的方法得到结果： getResultLength()/getResultBuffer()
+	 * or toString().
+	 */
 	public void stem() {
 		k = i - 1;
 		if (k > 1) {
@@ -530,54 +523,69 @@ public class PorterStemmer {
 	 * the word stemmed is expected to be in lower case: forcing lower case must be
 	 * done outside the Stemmer class. Usage: Stemmer file-name file-name ...
 	 */
-	public static void main(String[] args) {
+	public static void HandlePorterStemmer(String filePath,String fileName) {
 		char[] w = new char[501];
+		File inFile = new File(filePath+fileName);
+		File outFile = new File(filePath+"/"+"$$$.tmp");  //输出临时文件
 		PorterStemmer s = new PorterStemmer();
-		for (int i = 0; i < args.length; i++)
+		FileWriter Temp = null;
+		try {
+			FileInputStream in = new FileInputStream(inFile);
 			try {
-				FileInputStream in = new FileInputStream(new File("F:/Eclipse/eclipse/code/SearchEngine/WebPage/HandledEnglishPage/handled_Web_E_10.txt"));
-				try {
-					while (true)
-					{
-						int ch = in.read();
-						if (Character.isLetter((char) ch)) {
-							int j = 0;
-							while (true) {
-								ch = Character.toLowerCase((char) ch);
-								w[j] = (char) ch;
-								if (j < 500)
-									j++;
-								ch = in.read();
-								if (!Character.isLetter((char) ch)) {
-									/* to test add(char ch) */
-									for (int c = 0; c < j; c++)
-										s.add(w[c]);
-									/* or, to test add(char[] w, int j) */
-									/* s.add(w, j); */
-									s.stem();
-									{
-										String u;
-										/* and now, to test toString() : */
-										u = s.toString();
-										/* to test getResultBuffer(), getResultLength() : */
-										/* u = new String(s.getResultBuffer(), 0, s.getResultLength()); */
-										System.out.print(u);
-									}
-									break;
+				Temp = new FileWriter(outFile);
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}//将结果输出到临时文件中
+			try {
+				while (true) {
+					int ch = in.read();
+					if (Character.isLetter((char) ch)) {
+						int j = 0;
+						while (true) {
+							ch = Character.toLowerCase((char) ch);
+							w[j] = (char) ch;
+							if (j < 500)
+								j++;
+							ch = in.read();
+							if (!Character.isLetter((char) ch)) {
+								/* to test add(char ch) */
+								for (int c = 0; c < j; c++)
+									s.add(w[c]);
+								/* or, to test add(char[] w, int j) */
+								/* s.add(w, j); */
+								s.stem();
+								{
+									String u;
+									/* and now, to test toString() : */
+									u = s.toString();
+									/* to test getResultBuffer(), getResultLength() : */
+									/* u = new String(s.getResultBuffer(), 0, s.getResultLength()); */
+									//System.out.print(u);
+									Temp.write(u);
 								}
+								break;
 							}
 						}
-						if (ch < 0)
-							break;
-						System.out.print((char) ch);
 					}
-				} catch (IOException e) {
-					System.out.println("error reading " + args[i]);
-					break;
+					if (ch < 0)
+						break;
+					System.out.print((char) ch);
+					Temp.write((char) ch);
+					//System.out.print((char) ch);
+					//Temp.write("hahah\n");
+					
 				}
-			} catch (FileNotFoundException e) {
-				System.out.println("file " + args[i] + " not found");
-				break;
+				Temp.flush();
+				in.close();
+				Temp.close();
+				inFile.delete();
+				outFile.renameTo(inFile);
+			} catch (IOException e) {
+				e.printStackTrace();
 			}
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 	}
 }

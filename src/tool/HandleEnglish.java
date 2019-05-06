@@ -53,7 +53,7 @@ public class HandleEnglish {
 	}
 
 	/**
-	 * 将转为小写的网页信息保存到文件里
+	 * 将信息保存到文件里
 	 * @param wordsList
 	 * @param file
 	 */
